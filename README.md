@@ -18,9 +18,13 @@ The planning engine used for this project was ENHSP-20. ENHSP, acronym for Expre
 ## Running the Project
 
 1. The ENHSP planner has a Java dependency which can be met by Java version 16.0.1 in Ubuntu 20.04. Run the following lines successively on command terminal to download and install the required jdk:
-```bash
+```
 sudo dpkg -i jdk-16.0.1_linux-x64_bin.deb
+```
+```
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-16.0.1/bin/java 1
+```
+```
 sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-16.0.1/bin/javac 1
 ```
 
