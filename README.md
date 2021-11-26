@@ -1,4 +1,4 @@
-# Robotic Coffee Shop
+# Robotic Coffee Shop | AI Planner: ENHSP-20 
 
 ## Artificial Intelligence for Robotics II - Assignment I 
 Muhammad Ali Haider Dar, _[5046263@studenti.unige.it](mailto:5046263@studenti.unige.it)_
@@ -29,26 +29,26 @@ sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-16.0.1/
 ```
 
 2. In your workspace, clone the ‘enhsp-20’ branch of ENHSP planner:
-```bash 
+``` 
 git clone -b enhsp-20 https://gitlab.com/enricos83/ENHSP-Public.git
 ```
 
 3. Make the files executable:
-```bash
+```
 chmod +x ./enhsp
 ```
 
 4. Navigate to the assignment folder:
-```bash
+```
 cd <assignment_folder>
 ```
 
 5. Run the planner specifying the domain file airo2-domain.pddl and each of the problem files, for example airo2-problem-1.pddl file:
-```bash
+```
 /root/Desktop/enhsp/ENHSP-Public/enhsp -o airo2-domain.pddl -f airo2-problem-2.pddl
 ```
 
 6. The terminal output generated using the above command can also be exported in text file format by adding > <file_name>.txt after the above command, for example:
-```bash
+```
 /root/Desktop/enhsp/ENHSP-Public/enhsp -o airo2-domain.pddl -f airo2-problem-2.pddl > airo2-problem-2-output.txt
 ```
