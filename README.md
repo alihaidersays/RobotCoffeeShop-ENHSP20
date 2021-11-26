@@ -11,8 +11,6 @@ Instructor: [Prof. Mauro Vallati](https://pure.hud.ac.uk/en/persons/mauro-vallat
 
 The assignment focused on the operational usage of a PDDL-based AI planner **_ENHSP-20_** and tested the understanding of planning models. It was inspired by a few robotic coffee shops functional in Japan, which used robots as waiters and baristas. The tasks reimagined a similar scenario involving a robot waiter, a robot barista, customers, and four tables. It attempted to efficiently model the scenario in such a way that the robots plan and perform their tasks effectively as the number of customers increases.
 
-Further details can be found in the [assignment report](AIRO2-Assignment-1-Report.pdf).
-
 ## Planner
 
 The planning engine used for this project was ENHSP-20. ENHSP, acronym for Expressive Numeric Heuristic Search Planner, is a PDDL automated planning system which reads domain and problem files as input and provides a time-stamped sequence of actions to achieve the goal state. This planning engine builds an incremental graph and does a heuristic search to explore only the nodes which gets the planner closer to the goal. The details for ENHSP can be accessed _[here](https://sites.google.com/view/enhsp/)_.
