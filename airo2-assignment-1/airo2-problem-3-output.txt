@@ -1,0 +1,134 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 43
+(Pre Simplification) - |A|+|P|+|E|: 107
+AIBR :: Number of Supporters = 143
+(After Easy Simplification) - |A|+|P|+|E|: 95
+|F|:59
+|X|:4
+Grounding and Simplification finished
+|A|:69
+|P|:13
+|E|:13
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+ha:false htfalse
+AIBR selected
+Setting horizon to:NaN
+Helpful Action Pruning Activated
+Running WA-STAR
+h(n = s_0)=124.0
+f(n) = 124.0 (Expanded Nodes: 0, Evaluated States: 0, Time: 0.005)
+f(n) = 125.0 (Expanded Nodes: 214, Evaluated States: 1237, Time: 1.0)
+f(n) = 126.0 (Expanded Nodes: 224, Evaluated States: 1283, Time: 1.028)
+f(n) = 127.0 (Expanded Nodes: 230, Evaluated States: 1307, Time: 1.046)
+f(n) = 129.0 (Expanded Nodes: 244, Evaluated States: 1374, Time: 1.087)
+f(n) = 131.0 (Expanded Nodes: 270, Evaluated States: 1507, Time: 1.174)
+f(n) = 133.0 (Expanded Nodes: 306, Evaluated States: 1693, Time: 1.29)
+f(n) = 135.0 (Expanded Nodes: 330, Evaluated States: 1817, Time: 1.359)
+f(n) = 138.0 (Expanded Nodes: 339, Evaluated States: 1862, Time: 1.381)
+f(n) = 141.0 (Expanded Nodes: 351, Evaluated States: 1918, Time: 1.413)
+f(n) = 142.0 (Expanded Nodes: 369, Evaluated States: 2002, Time: 1.458)
+f(n) = 143.0 (Expanded Nodes: 411, Evaluated States: 2218, Time: 1.568)
+f(n) = 144.0 (Expanded Nodes: 438, Evaluated States: 2359, Time: 1.64)
+f(n) = 145.0 (Expanded Nodes: 3514, Evaluated States: 14980, Time: 7.412)
+f(n) = 146.0 (Expanded Nodes: 3694, Evaluated States: 15902, Time: 7.874)
+f(n) = 147.0 (Expanded Nodes: 3860, Evaluated States: 16726, Time: 8.273)
+-------------Time: 10s ; Expanded Nodes: 4775 (Avg-Speed 477.0 n/s); Evaluated States: 20360
+f(n) = 148.0 (Expanded Nodes: 5053, Evaluated States: 21342, Time: 10.479)
+f(n) = 149.0 (Expanded Nodes: 5473, Evaluated States: 23051, Time: 11.312)
+-------------Time: 20s ; Expanded Nodes: 10144 (Avg-Speed 507.0 n/s); Evaluated States: 42040
+-------------Time: 30s ; Expanded Nodes: 15363 (Avg-Speed 512.0 n/s); Evaluated States: 63413
+f(n) = 150.0 (Expanded Nodes: 16628, Evaluated States: 68437, Time: 32.351)
+f(n) = 151.0 (Expanded Nodes: 17328, Evaluated States: 71709, Time: 33.958)
+f(n) = 152.0 (Expanded Nodes: 17966, Evaluated States: 73647, Time: 34.88)
+-------------Time: 40s ; Expanded Nodes: 21000 (Avg-Speed 525.0 n/s); Evaluated States: 84619
+f(n) = 153.0 (Expanded Nodes: 21583, Evaluated States: 86473, Time: 40.941)
+f(n) = 154.0 (Expanded Nodes: 22453, Evaluated States: 89072, Time: 42.255)
+-------------Time: 50s ; Expanded Nodes: 26267 (Avg-Speed 525.0 n/s); Evaluated States: 104642
+-------------Time: 60s ; Expanded Nodes: 31325 (Avg-Speed 522.0 n/s); Evaluated States: 125048
+-------------Time: 70s ; Expanded Nodes: 36421 (Avg-Speed 520.0 n/s); Evaluated States: 145666
+f(n) = 155.0 (Expanded Nodes: 37905, Evaluated States: 151646, Time: 72.855)
+f(n) = 156.0 (Expanded Nodes: 38303, Evaluated States: 153127, Time: 73.556)
+f(n) = 157.0 (Expanded Nodes: 39834, Evaluated States: 155789, Time: 74.69)
+-------------Time: 80s ; Expanded Nodes: 43024 (Avg-Speed 537.0 n/s); Evaluated States: 166939
+f(n) = 158.0 (Expanded Nodes: 44826, Evaluated States: 172588, Time: 82.782)
+f(n) = 159.0 (Expanded Nodes: 45730, Evaluated States: 174332, Time: 83.586)
+-------------Time: 90s ; Expanded Nodes: 49034 (Avg-Speed 544.0 n/s); Evaluated States: 187790
+-------------Time: 100s ; Expanded Nodes: 54258 (Avg-Speed 542.0 n/s); Evaluated States: 208933
+f(n) = 160.0 (Expanded Nodes: 54933, Evaluated States: 211407, Time: 101.207)
+f(n) = 161.0 (Expanded Nodes: 55519, Evaluated States: 212289, Time: 101.584)
+f(n) = 162.0 (Expanded Nodes: 57863, Evaluated States: 215907, Time: 103.156)
+f(n) = 163.0 (Expanded Nodes: 61311, Evaluated States: 227167, Time: 108.817)
+f(n) = 164.0 (Expanded Nodes: 61865, Evaluated States: 227937, Time: 109.156)
+-------------Time: 110s ; Expanded Nodes: 62374 (Avg-Speed 567.0 n/s); Evaluated States: 229824
+f(n) = 165.0 (Expanded Nodes: 64192, Evaluated States: 236684, Time: 113.065)
+f(n) = 166.0 (Expanded Nodes: 65280, Evaluated States: 238110, Time: 113.668)
+f(n) = 167.0 (Expanded Nodes: 67434, Evaluated States: 241387, Time: 115.092)
+f(n) = 168.0 (Expanded Nodes: 68738, Evaluated States: 244876, Time: 116.616)
+Extracting plan with execution delta: 1.0
+Problem Solved
+0: (serve-table w table4)
+0: (serve-table w table2)
+0: (serve-table w table1)
+0: (serve-table w table3)
+0: (action-start-move bar table3 w)
+0.0: -----waiting---- [2.0]
+2.0: (action-clean-table-start table3 w)
+2.0: (action-start-order drink-1)
+2.0: -----waiting---- [6.0]
+6.0: (action-start-move table3 table2 w)
+6.0: -----waiting---- [7.0]
+7.0: (action-clean-table-start table2 w)
+7.0: -----waiting---- [9.0]
+9.0: (action-start-move table2 bar w)
+9.0: -----waiting---- [10.0]
+10.0: (pick-up-order bar w drink-1)
+10.0: (action-start-move bar table1 w)
+10.0: -----waiting---- [11.0]
+11.0: (put-down-order table1 w drink-1)
+11.0: (action-clean-table-start table1 w)
+11.0: (action-start-order drink-2)
+11.0: -----waiting---- [15.0]
+15.0: (action-start-move table1 bar w)
+15.0: -----waiting---- [16.0]
+16.0: (pick-up-order bar w drink-2)
+16.0: (action-start-move bar table1 w)
+16.0: -----waiting---- [17.0]
+17.0: (put-down-order table1 w drink-2)
+17.0: (action-start-move table1 table4 w)
+17.0: -----waiting---- [18.0]
+18.0: (action-clean-table-start table4 w)
+18.0: (action-start-order drink-4)
+18.0: -----waiting---- [20.0]
+20.0: (action-start-move table4 bar w)
+20.0: -----waiting---- [23.0]
+23.0: (pick-up-order bar w drink-4)
+23.0: (action-start-move bar table4 w)
+23.0: -----waiting---- [25.0]
+25.0: (put-down-order table4 w drink-4)
+25.0: (action-start-move table4 bar w)
+25.0: (action-start-order drink-3)
+25.0: -----waiting---- [27.0]
+27.0: (action-start-move bar table3 w)
+27.0: -----waiting---- [30.0]
+30.0: (action-start-move table3 bar w)
+30.0: -----waiting---- [32.0]
+32.0: (pick-up-order bar w drink-3)
+32.0: (action-start-move bar table4 w)
+32.0: -----waiting---- [34.0]
+34.0: (put-down-order table4 w drink-3)
+Plan-Length:88
+Elapsed Time: 34.0
+Metric (Search):67.0
+Planning Time:117254
+Heuristic Time:114110
+Search Time:116911
+Expanded Nodes:69091
+States Evaluated:245640
+Fixed constraint violations during search (zero-crossing):0
+Number of Dead-Ends detected:0
+Number of Duplicates detected:208687

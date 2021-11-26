@@ -1,0 +1,74 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 39
+(Pre Simplification) - |A|+|P|+|E|: 107
+AIBR :: Number of Supporters = 143
+(After Easy Simplification) - |A|+|P|+|E|: 95
+|F|:59
+|X|:4
+Grounding and Simplification finished
+|A|:69
+|P|:13
+|E|:13
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+ha:false htfalse
+AIBR selected
+Setting horizon to:NaN
+Helpful Action Pruning Activated
+Running WA-STAR
+h(n = s_0)=139.0
+f(n) = 139.0 (Expanded Nodes: 0, Evaluated States: 0, Time: 0.005)
+Extracting plan with execution delta: 1.0
+Problem Solved
+0: (action-start-move bar table1 w)
+0.0: -----waiting---- [1.0]
+1.0: (serve-table w table2)
+1.0: (serve-table w table1)
+1.0: (serve-table w table4)
+1.0: (serve-table w table3)
+1.0: (action-clean-table-start table1 w)
+1.0: (action-start-order drink-2)
+1.0: -----waiting---- [3.0]
+3.0: (action-start-move table1 table2 w)
+3.0: -----waiting---- [4.0]
+4.0: (action-clean-table-start table2 w)
+4.0: (action-start-order drink-1)
+4.0: -----waiting---- [6.0]
+6.0: (action-start-move table2 bar w)
+6.0: -----waiting---- [7.0]
+7.0: (pick-up-order bar w drink-1)
+7.0: (action-start-move bar table3 w)
+7.0: -----waiting---- [9.0]
+9.0: (put-down-order table3 w drink-1)
+9.0: (action-clean-table-start table3 w)
+9.0: (action-start-order drink-4)
+9.0: -----waiting---- [13.0]
+13.0: (action-start-move table3 bar w)
+13.0: -----waiting---- [15.0]
+15.0: (pick-2-tray bar w drink-2 drink-4)
+15.0: (action-start-move bar table4 w)
+15.0: -----waiting---- [18.0]
+18.0: (action-start-move table4 bar w)
+18.0: (action-start-order drink-3)
+18.0: -----waiting---- [23.0]
+23.0: (pick-3-tray bar w drink-3)
+23.0: (action-start-move bar table3 w)
+23.0: -----waiting---- [26.0]
+26.0: (put-down-3-drink table3 w drink-3)
+26.0: (put-down-2-drink table3 w drink-2)
+26.0: (put-down-1-drink table3 w drink-4)
+Plan-Length:67
+Elapsed Time: 26.0
+Metric (Search):52.0
+Planning Time:3804
+Heuristic Time:3300
+Search Time:3457
+Expanded Nodes:2568
+States Evaluated:7614
+Fixed constraint violations during search (zero-crossing):0
+Number of Dead-Ends detected:0
+Number of Duplicates detected:2790
