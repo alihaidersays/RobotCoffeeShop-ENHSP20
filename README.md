@@ -1,4 +1,4 @@
-# Robotic Coffee Shop | AI Planner: ENHSP-20 
+# Robot Coffee Shop | AI Planner: ENHSP-20 
 
 ## Artificial Intelligence for Robotics II - Assignment I 
 Muhammad Ali Haider Dar, _[5046263@studenti.unige.it](mailto:5046263@studenti.unige.it)_
